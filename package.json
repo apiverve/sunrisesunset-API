@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/sunrisesunset",
+  "version": "1.0.0",
+  "description": "Sunrise Sunset is a simple tool for getting the sunrise and sunset times. It returns the sunrise and sunset times for a given location and date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/sunrisesunset-API.git"
+  },
+  "keywords": [
+    "sunrise sunset"," sunrise sunset api"," sunrise sunset tool"," sunrise sunset software"," sunrise sunset service"," sunrise sunset library"," sunrise sunset sdk"," sunrise sunset code"," sunrise sunset script"," sunrise sunset program"," sunrise sunset application"," sunrise sunset app"," sunrise sunset utility"," sunrise sunset helper"," sunrise sunset helper tool"," sunrise sunset helper software"," sunrise sunset helper service"," sunrise sunset helper library"," sunrise sunset helper sdk"," sunrise sunset helper code"," sunrise sunset helper script"," sunrise sunset helper program"," sunrise sunset helper application"," sunrise sunset helper app"," sunrise sunset helper utility"," sunrise sunset helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/sunrisesunset-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/sunrisesunset-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
