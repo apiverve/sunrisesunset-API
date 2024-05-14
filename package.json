@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/sunrisesunset-API.git"
   },
   "keywords": [
-    "sunrise sunset"," sunrise sunset api"," sunrise sunset tool"," sunrise sunset software"," sunrise sunset service"," sunrise sunset library"," sunrise sunset sdk"," sunrise sunset code"," sunrise sunset script"," sunrise sunset program"," sunrise sunset application"," sunrise sunset app"," sunrise sunset utility"," sunrise sunset helper"," sunrise sunset helper tool"," sunrise sunset helper software"," sunrise sunset helper service"," sunrise sunset helper library"," sunrise sunset helper sdk"," sunrise sunset helper code"," sunrise sunset helper script"," sunrise sunset helper program"," sunrise sunset helper application"," sunrise sunset helper app"," sunrise sunset helper utility"," sunrise sunset helper"
+    "sunrise sunset","sunrise sunset api","sunrise sunset tool","sunrise sunset software","sunrise sunset service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
