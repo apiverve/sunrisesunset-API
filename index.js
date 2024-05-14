@@ -28,7 +28,7 @@ class sunrisesunsetWrapper {
             throw new Error('Query parameters must be provided as an object.');
         }
 
-        var requiredParams = ["lat", "long"];
+        var requiredParams = ["lat", "lon"];
         if (requiredParams.length > 0) {
             for (var i = 0; i < requiredParams.length; i++) {
                 if (!query[requiredParams[i]]) {
