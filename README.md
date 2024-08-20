@@ -50,7 +50,7 @@ Using the API client, you can perform requests to the API.
 var query = {
   lat: 36.7201600,
   lon: -4.4203400,
-  date: "07-17-2024"
+  date: "08-20-2024"
 };
 ```
 
@@ -73,20 +73,21 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "solarNoon": "2024-07-17T12:24:56.439Z",
-    "sunrise": "2024-07-17T05:13:14.585Z",
-    "sunset": "2024-07-17T19:36:38.293Z",
-    "sunriseEnd": "2024-07-17T05:16:14.024Z",
-    "sunsetStart": "2024-07-17T19:33:38.854Z",
-    "dawn": "2024-07-17T04:43:32.774Z",
-    "dusk": "2024-07-17T20:06:20.104Z",
-    "nauticalDawn": "2024-07-17T04:06:56.533Z",
-    "nauticalDusk": "2024-07-17T20:42:56.345Z",
-    "nightEnd": "2024-07-17T03:26:42.539Z",
-    "night": "2024-07-17T21:23:10.338Z",
-    "goldenHourEnd": "2024-07-17T05:50:46.709Z",
-    "goldenHour": "2024-07-17T18:59:06.168Z"
-  }
+    "solarNoon": "2024-08-14T12:23:43.452Z",
+    "sunrise": "2024-08-14T05:35:40.906Z",
+    "sunset": "2024-08-14T19:11:45.997Z",
+    "sunriseEnd": "2024-08-14T05:38:29.019Z",
+    "sunsetStart": "2024-08-14T19:08:57.884Z",
+    "dawn": "2024-08-14T05:08:07.373Z",
+    "dusk": "2024-08-14T19:39:19.531Z",
+    "nauticalDawn": "2024-08-14T04:34:57.098Z",
+    "nauticalDusk": "2024-08-14T20:12:29.806Z",
+    "nightEnd": "2024-08-14T03:59:54.62Z",
+    "night": "2024-08-14T20:47:32.284Z",
+    "goldenHourEnd": "2024-08-14T06:11:09.003Z",
+    "goldenHour": "2024-08-14T18:36:17.901Z"
+  },
+  "code": 200
 }
 ```
 
