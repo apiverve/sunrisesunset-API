@@ -50,7 +50,7 @@ Using the API client, you can perform requests to the API.
 var query = {
   lat: 36.7201600,
   lon: -4.4203400,
-  date: "02-21-2025"
+  date: "03-27-2025"
 };
 ```
 
